@@ -1,0 +1,125 @@
+/*
+
+- Change the background color of the header and footer.
+- Modify the font styles (font-family, font-size) for the headings and paragraphs.
+- (ADVANCED) Add hover effects to the navigation links and buttons.
+- (ADVANCED) Use CSS Grid or Flexbox to create a more complex layout for the gallery and project sections.
+- (ADVANCED) Design a Modern Navigation Bar
+- 
+*/
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: left;
+}
+
+.clube {
+font-size: 35px;
+color: #091799;
+font-weight: bold;
+text-align: center;
+}
+
+.historia {
+font-size: 25px;
+font-weight: bold;
+color:#2337f0
+}
+
+
+.sitios {
+    font-size: 25px;
+    font-weight: bold;
+    color:#2337f0
+    }
+    
+p {
+font-size: 16px;    
+}
+p {
+    font-size: 16px;    
+    }
+
+
+.troféus {
+    font-size: 25px;
+    font-weight: bold;
+    color:#2337f0
+    }
+    
+    .plantel {
+        font-size: 25px;
+        font-weight: bold;
+        color:#2337f0
+        }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #112765;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #091799;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 > img{
+    position: absolute;
+}
+
+.grid-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas de igual largura */
+    gap: 10px;
+}
+.grid-item {
+    background-color: #ffffff;
+    color: gray;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
